@@ -6,7 +6,7 @@ Simple pipeline that descard the credit card information from kaggle. The datase
 
 ## Pipeline design 
 
-![Pipeline diagram](doc/img/pipeline_detail.png)
+![Pipeline diagram](docs/img/pipeline_detail.png)
 
 
 Data infromation been extracted from public dataset(kaggle) using:
@@ -24,7 +24,7 @@ Data infromation been extracted from public dataset(kaggle) using:
 #### Data staging
 Raw dataset from kaggle(csv) will be extract and load to data warehouse(PostgreSQL)
 
-![Data Staging diagram](doc/img/data_detail.jpg)
+![Data Staging diagram](docs/img/data_detail.jpg)
 
 Based on the diagram, the data been stored can be categorized:
 
