@@ -6,7 +6,7 @@ Simple pipeline that descard the credit card information from kaggle. The datase
 
 ## Pipeline design 
 
-![Pipeline diagram](docs/img/pipeline_detail.png)
+![Pipeline diagram](docs/img/pipeline_diagram.jpg)
 
 
 Data infromation been extracted from public dataset(kaggle) using:
