@@ -1,6 +1,6 @@
 # Credit Card information pipeline
 
-Simple pipeline that descard the credit card information from kaggle. The dataset been contain in the data warehouse will be used to analyze for report and prediction purposes
+Simple pipeline implementation that extract the credit card information from kaggle. The dataset been contain in the data warehouse will be used to analyze for report and prediction purposes
 
 ---
 
@@ -15,8 +15,8 @@ Data infromation been extracted from public dataset(kaggle) using:
 
 #### Data details
 
-- [Credit card transaction dataset](https://www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset) (Data format: csv) been used from kaggle.
-- Extracted data using kaggle API. Reference: [Dataset](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
+- [Credit card  dataset](https://www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset) (Data format: csv) been used from kaggle.
+- Extracted data using kaggle API. Reference: [Dataset](https://www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset)
 
 
 
