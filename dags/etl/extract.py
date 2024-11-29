@@ -12,9 +12,6 @@ data_dir = "./batch/data/"
 #extract method:
 # kaggle api
 def extract_data_from_kaggle_api(dataset_url, data_dir):
-   
-
-    #config for kaggle credentials
     with open(kaggle_json_path, 'r') as file:
         kaggle_credentials = json.load(file)
 
@@ -29,13 +26,12 @@ def extract_data_from_kaggle_api(dataset_url, data_dir):
 
 # kaggle csv files
 def extract_data_from_kaggle_csv(directory):
-# Dictionary to store DataFrame variables
     csv_dataframes = {}
 
     # Loop through files in the directory
     for filename in os.listdir(directory):
-        if filename.endswith(".csv"):  # Check if the file is a CSV
-            variable_name = os.path.splitext(filename)[0]  # Use filename (without extension) as the variable name
+        if filename.endswith(".csv"): 
+            variable_name = os.path.splitext(filename)[0] 
             file_path = os.path.join(directory, filename)
             csv_dataframes[variable_name] = pd.read_csv(file_path)
             print(f"Loaded {filename} into variable '{variable_name}'")
